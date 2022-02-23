@@ -8,5 +8,5 @@ let number2 = 25
 
 var largest: Int
 largest=number1>number2 ? number1: number2
-//print(largest)
+print(largest)
 //: [Previous](@previous)  |  page 8 of 9  |  [Next: App Exercise - Ternary Messages](@next)

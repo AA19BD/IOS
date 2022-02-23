@@ -17,6 +17,6 @@ print(multipliedAsDoubles)
 /*:
  Are the values of `multipliedAsIntegers` and `multipliedAsDoubles` different? Print a statement to the console explaining why.
  */
-print("Yes,first one=30,second=32=>using Numeric Type Conversion we chanhed the type of data for enabling the compiler to add")
+print("Yes,first one=30,second=32=>using Numeric Type Conversion we changed the type of data for enabling the compiler to add")
 
 //: [Previous](@previous)  |  page 7 of 8  |  [Next: App Exercise - Converting Types](@next)

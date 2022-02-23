@@ -4,10 +4,8 @@ import UIKit
 //print(greeting)
 //
 //
-//var a=5
-//var b=2
-//
-//print(a/b)
+//var alpha1=5
+//print(alpha1)
 //
 //var b1:String="Gello"
 //print(b1)
@@ -44,3 +42,46 @@ import UIKit
 //firstName="Harry"
 //print(firstName)
 
+//struct Person{
+//    var number:Int=0
+//}
+//let person=Person()
+//print(person.number)
+
+struct Car{
+    var number:Int=0
+    
+    mutating func increment(){
+        number+=1
+    }
+    mutating func incrementBy(by amount:Int){
+        number+=amount
+    }
+    mutating func reset(){
+        number=0
+    }
+}
+var car=Car()
+car.increment()
+print(car.number)
+car.incrementBy(by: 12)
+print(car.number)
+car.reset()
+print(car.number)
+
+
+struct Temperature{//Computed property
+    var celsius:Double=0
+    
+    var Kelvin:Double{
+        self.celsius*1.8+32
+    }
+    var Fahrenheit:Double{
+        self.celsius+273.15
+    }
+}
+let t=Temperature()
+
+print(t.celsius)
+print(t.Fahrenheit)
+print(t.Kelvin)
